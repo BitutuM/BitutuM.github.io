@@ -6,27 +6,9 @@
     <title>Mercy Mogambi - Projects</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .collapsible {
-            background-color: #777;
-            color: white;
-            cursor: pointer;
-            padding: 10px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-        }
-
-        .active, .collapsible:hover {
-            background-color: #555;
-        }
-
-        .content {
-            padding: 0 18px;
+        .project-content {
             display: none;
-            overflow: hidden;
-            background-color: #f1f1f1;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -36,51 +18,65 @@
     </header>
 
     <section id="projects">
-        <!-- Web Scraping Project -->
-        <button class="collapsible">Web Scraping Project</button>
-        <div class="content">
+        <ul>
+            <li><a href="#" onclick="showProject('web-scraping')">Web Scraping Project</a></li>
+            <li><a href="#" onclick="showProject('netflix-data-wrangling')">Netflix Data Wrangling</a></li>
+            <li><a href="#" onclick="showProject('titanic-eda')">Titanic Exploratory Data Analysis (EDA)</a></li>
+            <li><a href="#" onclick="showProject('power-bi')">Business Intelligence on Power BI</a></li>
+            <li><a href="#" onclick="showProject('tableau')">Data Visualization Using Tableau</a></li>
+        </ul>
+
+        <div id="web-scraping" class="project-content">
+            <h2>Web Scraping Project</h2>
             <p><strong>Task:</strong> Scraped data from a live website using Python, BeautifulSoup, and Pandas. The data was organized into a DataFrame and exported to a .csv file.</p>
             <p><strong>Technologies Used:</strong> Python, BeautifulSoup, Pandas</p>
             <p><strong>Key Learning:</strong> Gained experience in automating web data gathering and processing structured data. Learned to handle dynamic content on websites and organize data into a structured format for analysis.</p>
-            <p><strong>Further Details:</strong> This project demonstrated how to retrieve data from websites that do not provide an API for data extraction. We focused on extracting data from HTML tables and processing it into an actionable dataset.</p>
         </div>
 
-        <!-- Netflix Data Wrangling -->
-        <button class="collapsible">Netflix Data Wrangling</button>
-        <div class="content">
+        <div id="netflix-data-wrangling" class="project-content">
+            <h2>Netflix Data Wrangling</h2>
             <p><strong>Task:</strong> Cleaned and transformed a Netflix dataset using Pandas. Handled missing values, outliers, and inconsistencies in the dataset.</p>
             <p><strong>Technologies Used:</strong> Pandas, Data Wrangling Techniques</p>
             <p><strong>Key Learning:</strong> Improved skills in cleaning, transforming, and analyzing large datasets, ensuring data quality and consistency. Learned various techniques for cleaning messy data.</p>
-            <p><strong>Further Details:</strong> This project focused on handling missing values, duplicates, and formatting errors within a real-world dataset. The dataset was transformed and prepared for visualization and statistical analysis.</p>
         </div>
 
-        <!-- Titanic EDA -->
-        <button class="collapsible">Titanic Exploratory Data Analysis (EDA)</button>
-        <div class="content">
+        <div id="titanic-eda" class="project-content">
+            <h2>Titanic Exploratory Data Analysis (EDA)</h2>
             <p><strong>Task:</strong> Performed exploratory data analysis on the Titanic dataset to explore relationships between features and survival rates.</p>
             <p><strong>Technologies Used:</strong> Python, Pandas, Matplotlib</p>
             <p><strong>Key Learning:</strong> Developed skills in data visualization, hypothesis testing, and identifying significant patterns in the dataset. Explored correlations between survival and features like age, gender, and class.</p>
-            <p><strong>Further Details:</strong> The project involved identifying patterns in passenger data that could help predict survival on the Titanic. A variety of visualizations were used to assess relationships between the features and survival rates.</p>
         </div>
 
-        <!-- Add more projects here as needed -->
+        <div id="power-bi" class="project-content">
+            <h2>Business Intelligence on Power BI</h2>
+            <p><strong>Task:</strong> Created a dashboard using Power BI for hotel management. Analyzed data related to room bookings, guest demographics, and financial performance.</p>
+            <p><strong>Technologies Used:</strong> Power BI, Data Modeling, DAX</p>
+            <p><strong>Key Learning:</strong> Gained hands-on experience in building interactive dashboards and utilizing DAX expressions to enhance business insights.</p>
+        </div>
 
-        <p><a href="index.html">Back to homepage</a></p>
+        <div id="tableau" class="project-content">
+            <h2>Data Visualization Using Tableau</h2>
+            <p><strong>Task:</strong> Designed an interactive dashboard using Tableau to provide insights into HR metrics. Included summary views and detailed employee records analysis.</p>
+            <p><strong>Technologies Used:</strong> Tableau, Data Visualization, Dashboard Design</p>
+            <p><strong>Key Learning:</strong> Improved my ability to create impactful visualizations that highlight important trends and metrics for decision-makers.</p>
+        </div>
     </section>
 
     <script>
-        var coll = document.getElementsByClassName("collapsible");
-        for (var i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
+        // Function to show the content of the clicked project
+        function showProject(projectId) {
+            // Hide all project content
+            const allProjects = document.querySelectorAll('.project-content');
+            allProjects.forEach(function(project) {
+                project.style.display = 'none';
             });
+
+            // Show the clicked project content
+            const project = document.getElementById(projectId);
+            project.style.display = 'block';
         }
     </script>
+
+    <p><a href="index.html">Back to homepage</a></p>
 </body>
 </html>

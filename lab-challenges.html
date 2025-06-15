@@ -6,27 +6,9 @@
     <title>Mercy Mogambi - Lab Challenges</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .collapsible {
-            background-color: #777;
-            color: white;
-            cursor: pointer;
-            padding: 10px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-        }
-
-        .active, .collapsible:hover {
-            background-color: #555;
-        }
-
-        .content {
-            padding: 0 18px;
+        .challenge-content {
             display: none;
-            overflow: hidden;
-            background-color: #f1f1f1;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -36,51 +18,70 @@
     </header>
 
     <section id="lab-challenges">
-        <!-- Web Scraping Challenge -->
-        <button class="collapsible">Challenge 1: Web Scraping with Python</button>
-        <div class="content">
+        <ul>
+            <li><a href="#" onclick="showChallenge('web-scraping-challenge')">Web Scraping with Python</a></li>
+            <li><a href="#" onclick="showChallenge('netflix-data-wrangling-challenge')">Netflix Data Wrangling</a></li>
+            <li><a href="#" onclick="showChallenge('titanic-eda-challenge')">Titanic Exploratory Data Analysis (EDA)</a></li>
+            <li><a href="#" onclick="showChallenge('gis-surveying-challenge')">GIS Surveying and Mapping Challenge</a></li>
+            <li><a href="#" onclick="showChallenge('ml-data-prep-challenge')">Machine Learning Data Preparation</a></li>
+        </ul>
+
+        <div id="web-scraping-challenge" class="challenge-content">
+            <h2>Challenge 1: Web Scraping with Python</h2>
             <p><strong>Problem Statement:</strong> Scrape structured data from a live website and process it into a format suitable for analysis. The goal is to extract data from a website that requires user interaction and clean it for further use.</p>
             <p><strong>Approach:</strong> Used Python with the libraries Requests and BeautifulSoup to scrape a table from a live website. Cleaned the data using Pandas and stored it into a structured format (CSV).</p>
             <p><strong>Tools Used:</strong> Python, BeautifulSoup, Requests, Pandas</p>
             <p><strong>Key Lessons Learned:</strong> Developed a deeper understanding of web scraping techniques, handling dynamic content on websites, and managing large datasets with Pandas. Gained experience in automating data collection processes.</p>
         </div>
 
-        <!-- Netflix Data Wrangling Challenge -->
-        <button class="collapsible">Challenge 2: Netflix Data Wrangling</button>
-        <div class="content">
+        <div id="netflix-data-wrangling-challenge" class="challenge-content">
+            <h2>Challenge 2: Netflix Data Wrangling</h2>
             <p><strong>Problem Statement:</strong> Clean and transform a Netflix dataset that contains inconsistencies, missing values, and other issues. The goal is to create a clean, structured dataset suitable for analysis and visualization.</p>
             <p><strong>Approach:</strong> Analyzed the dataset using Pandas to identify missing values, duplicates, and outliers. Performed transformations like date parsing, splitting columns, and handling missing data. Finally, exported the cleaned dataset.</p>
             <p><strong>Tools Used:</strong> Pandas, Python</p>
             <p><strong>Key Lessons Learned:</strong> Gained practical experience in data wrangling techniques, handling large datasets, and using data transformation tools. Learned how to structure and clean real-world datasets for further analysis.</p>
         </div>
 
-        <!-- Titanic EDA Challenge -->
-        <button class="collapsible">Challenge 3: Titanic Exploratory Data Analysis (EDA)</button>
-        <div class="content">
+        <div id="titanic-eda-challenge" class="challenge-content">
+            <h2>Challenge 3: Titanic Exploratory Data Analysis (EDA)</h2>
             <p><strong>Problem Statement:</strong> Analyze the Titanic dataset to explore relationships between passenger features and survival rates. The goal is to uncover meaningful patterns and insights through data exploration.</p>
             <p><strong>Approach:</strong> Conducted univariate, bivariate, and multivariate analysis using Python libraries like Pandas and Matplotlib. Visualized key features such as age, gender, class, and embarkation point to understand their relationship with survival.</p>
             <p><strong>Tools Used:</strong> Pandas, Matplotlib, Python</p>
             <p><strong>Key Lessons Learned:</strong> Improved my skills in exploratory data analysis and visualization. Learned how to identify key features that influence outcomes (survival) and how to communicate findings visually.</p>
         </div>
 
-        <!-- Add more challenges here as needed -->
+        <div id="gis-surveying-challenge" class="challenge-content">
+            <h2>Challenge 4: GIS Surveying and Mapping Challenge</h2>
+            <p><strong>Problem Statement:</strong> Conduct a GIS-based survey to collect and analyze spatial data. The goal is to use remote sensing tools to gather geographic data, prepare maps, and analyze the spatial distribution of features.</p>
+            <p><strong>Approach:</strong> Used ArcGIS for spatial data analysis and mapping. Collected survey data through GPS, then processed the data using ArcGIS and AutoCAD. Prepared maps and reports to visualize spatial relationships and provide insights.</p>
+            <p><strong>Tools Used:</strong> ArcGIS, AutoCAD, GPS</p>
+            <p><strong>Key Lessons Learned:</strong> Gained practical experience in GIS surveying and spatial data analysis. Learned how to use geospatial tools effectively to analyze and visualize geographic information.</p>
+        </div>
 
-        <p><a href="index.html">Back to homepage</a></p>
+        <div id="ml-data-prep-challenge" class="challenge-content">
+            <h2>Challenge 5: Machine Learning Data Preparation</h2>
+            <p><strong>Problem Statement:</strong> Prepare annotated datasets for machine learning model training. The goal is to segment and annotate images for use in a machine learning model that can identify objects and patterns in images.</p>
+            <p><strong>Approach:</strong> Used Hasty software for image annotation and segmentation. Prepared high-quality labeled datasets by manually segmenting images, labeling objects, and ensuring data quality.</p>
+            <p><strong>Tools Used:</strong> Hasty, Python, Machine Learning Data Preparation Tools</p>
+            <p><strong>Key Lessons Learned:</strong> Developed expertise in image annotation and segmentation, which is essential for training machine learning models. Gained an understanding of how to prepare clean, accurate datasets for model training.</p>
+        </div>
     </section>
 
     <script>
-        var coll = document.getElementsByClassName("collapsible");
-        for (var i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
+        // Function to show the content of the clicked challenge
+        function showChallenge(challengeId) {
+            // Hide all challenge content
+            const allChallenges = document.querySelectorAll('.challenge-content');
+            allChallenges.forEach(function(challenge) {
+                challenge.style.display = 'none';
             });
+
+            // Show the clicked challenge content
+            const challenge = document.getElementById(challengeId);
+            challenge.style.display = 'block';
         }
     </script>
+
+    <p><a href="index.html">Back to homepage</a></p>
 </body>
 </html>

@@ -34,3 +34,7 @@ a:hover {
     text-decoration: underline;
 }
 
+.profile-photo {
+    width: 500px;  /* Adjust the width as needed */
+    height: 500px;  /* Maintain aspect ratio */
+}

@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercy Mogambi - GIS Analyst Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-section {
+            display: none; /* Initially hide all content sections */
+        }
+        .active {
+            display: block; /* Show only the active content section */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,30 +29,104 @@
         <a href="about.html">Learn more about me</a>
     </section>
 
-    <!-- Projects Section with Link to More Details -->
+    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><a href="projects.html">Web Scraping Project</a></li>
-            <li><a href="projects.html">Netflix Data Wrangling</a></li>
-            <li><a href="projects.html">Titanic EDA</a></li>
-            <li><a href="projects.html">Business Intelligence on Power BI</a></li>
-            <li><a href="projects.html">Data Visualization Using Tableau</a></li>
+            <li><a href="javascript:void(0)" onclick="showProjectDetails('webScraping')">Web Scraping Project</a></li>
+            <li><a href="javascript:void(0)" onclick="showProjectDetails('netflixWrangling')">Netflix Data Wrangling</a></li>
+            <li><a href="javascript:void(0)" onclick="showProjectDetails('titanicEda')">Titanic EDA</a></li>
+            <li><a href="javascript:void(0)" onclick="showProjectDetails('powerBi')">Business Intelligence on Power BI</a></li>
+            <li><a href="javascript:void(0)" onclick="showProjectDetails('tableau')">Data Visualization Using Tableau</a></li>
         </ul>
-        <p>Click on the above project names to see more details about each project.</p>
     </section>
 
-    <!-- Lab Challenges Section with Link to More Details -->
+    <!-- Lab Challenges Section -->
     <section id="lab-challenges">
         <h2>Lab Challenges</h2>
         <ul>
-            <li><a href="lab-challenges.html">Web Scraping with Python</a></li>
-            <li><a href="lab-challenges.html">Netflix Data Wrangling</a></li>
-            <li><a href="lab-challenges.html">Titanic Exploratory Data Analysis (EDA)</a></li>
-            <li><a href="lab-challenges.html">GIS Surveying and Mapping Challenge</a></li>
-            <li><a href="lab-challenges.html">Machine Learning Data Preparation</a></li>
+            <li><a href="javascript:void(0)" onclick="showChallengeDetails('webScrapingChallenge')">Web Scraping with Python</a></li>
+            <li><a href="javascript:void(0)" onclick="showChallengeDetails('netflixWranglingChallenge')">Netflix Data Wrangling</a></li>
+            <li><a href="javascript:void(0)" onclick="showChallengeDetails('titanicEdaChallenge')">Titanic Exploratory Data Analysis (EDA)</a></li>
+            <li><a href="javascript:void(0)" onclick="showChallengeDetails('gisSurveyingChallenge')">GIS Surveying and Mapping Challenge</a></li>
+            <li><a href="javascript:void(0)" onclick="showChallengeDetails('mlDataPreparationChallenge')">Machine Learning Data Preparation</a></li>
         </ul>
-        <p>Click on the above challenge names to see more details about each lab challenge.</p>
+    </section>
+
+    <!-- Content sections -->
+    <section id="webScraping" class="content-section">
+        <h3>Web Scraping Project</h3>
+        <p>Task: Scraped data from a live website using Python, BeautifulSoup, and Pandas. The data was organized into a DataFrame and exported to a .csv file.</p>
+        <p><strong>Technologies Used:</strong> Python, BeautifulSoup, Pandas</p>
+        <p><strong>Key Learning:</strong> Gained experience in automating web data gathering and processing structured data.</p>
+    </section>
+
+    <section id="netflixWrangling" class="content-section">
+        <h3>Netflix Data Wrangling</h3>
+        <p>Task: Cleaned and transformed a Netflix dataset using Pandas. Handled missing values, outliers, and inconsistencies in the dataset.</p>
+        <p><strong>Technologies Used:</strong> Pandas, Data Wrangling Techniques</p>
+        <p><strong>Key Learning:</strong> Improved skills in cleaning, transforming, and analyzing large datasets, ensuring data quality and consistency.</p>
+    </section>
+
+    <section id="titanicEda" class="content-section">
+        <h3>Titanic Exploratory Data Analysis (EDA)</h3>
+        <p>Task: Performed exploratory data analysis on the Titanic dataset to explore relationships between features and survival rates.</p>
+        <p><strong>Technologies Used:</strong> Python, Pandas, Matplotlib</p>
+        <p><strong>Key Learning:</strong> Developed skills in data visualization, hypothesis testing, and identifying significant patterns in the dataset.</p>
+    </section>
+
+    <section id="powerBi" class="content-section">
+        <h3>Business Intelligence on Power BI</h3>
+        <p>Task: Created a dashboard using Power BI for hotel management. Analyzed data related to room bookings, guest demographics, and financial performance.</p>
+        <p><strong>Technologies Used:</strong> Power BI, Data Modeling, DAX</p>
+        <p><strong>Key Learning:</strong> Gained hands-on experience in building interactive dashboards and utilizing DAX expressions to enhance business insights.</p>
+    </section>
+
+    <section id="tableau" class="content-section">
+        <h3>Data Visualization Using Tableau</h3>
+        <p>Task: Designed an interactive dashboard using Tableau to provide insights into HR metrics. Included summary views and detailed employee records analysis.</p>
+        <p><strong>Technologies Used:</strong> Tableau, Data Visualization, Dashboard Design</p>
+        <p><strong>Key Learning:</strong> Improved my ability to create impactful visualizations that highlight important trends and metrics for decision-makers.</p>
+    </section>
+
+    <!-- Lab Challenge Content Sections -->
+    <section id="webScrapingChallenge" class="content-section">
+        <h3>Web Scraping with Python</h3>
+        <p><strong>Problem Statement:</strong> Scrape structured data from a live website and process it into a format suitable for analysis. The goal is to extract data from a website that requires user interaction and clean it for further use.</p>
+        <p><strong>Approach:</strong> Used Python with the libraries Requests and BeautifulSoup to scrape a table from a live website. Cleaned the data using Pandas and stored it into a structured format (CSV).</p>
+        <p><strong>Tools Used:</strong> Python, BeautifulSoup, Requests, Pandas</p>
+        <p><strong>Key Lessons Learned:</strong> Developed a deeper understanding of web scraping techniques, handling dynamic content on websites, and managing large datasets with Pandas. Gained experience in automating data collection processes.</p>
+    </section>
+
+    <section id="netflixWranglingChallenge" class="content-section">
+        <h3>Netflix Data Wrangling</h3>
+        <p><strong>Problem Statement:</strong> Clean and transform a Netflix dataset that contains inconsistencies, missing values, and other issues. The goal is to create a clean, structured dataset suitable for analysis and visualization.</p>
+        <p><strong>Approach:</strong> Analyzed the dataset using Pandas to identify missing values, duplicates, and outliers. Performed transformations like date parsing, splitting columns, and handling missing data. Finally, exported the cleaned dataset.</p>
+        <p><strong>Tools Used:</strong> Pandas, Python</p>
+        <p><strong>Key Lessons Learned:</strong> Gained practical experience in data wrangling techniques, handling large datasets, and using data transformation tools. Learned how to structure and clean real-world datasets for further analysis.</p>
+    </section>
+
+    <!-- Additional Lab Challenges -->
+    <section id="titanicEdaChallenge" class="content-section">
+        <h3>Titanic Exploratory Data Analysis (EDA)</h3>
+        <p><strong>Problem Statement:</strong> Analyze the Titanic dataset to explore relationships between passenger features and survival rates.</p>
+        <p><strong>Approach:</strong> Conducted univariate, bivariate, and multivariate analysis using Python libraries like Pandas and Matplotlib.</p>
+        <p><strong>Tools Used:</strong> Pandas, Matplotlib</p>
+        <p><strong>Key Lessons Learned:</strong> Improved skills in exploratory data analysis, visualization, and identifying meaningful patterns.</p>
+    </section>
+
+    <section id="gisSurveyingChallenge" class="content-section">
+        <h3>GIS Surveying and Mapping Challenge</h3>
+        <p><strong>Problem Statement:</strong> Conduct GIS-based surveys to collect and analyze spatial data.</p>
+        <p><strong>Approach:</strong> Used ArcGIS for spatial data analysis, mapped geospatial information, and generated reports.</p>
+        <p><strong>Tools Used:</strong> ArcGIS, AutoCAD, GPS</p>
+    </section>
+
+    <section id="mlDataPreparationChallenge" class="content-section">
+        <h3>Machine Learning Data Preparation</h3>
+        <p><strong>Problem Statement:</strong> Prepare annotated datasets for machine learning model training.</p>
+        <p><strong>Approach:</strong> Used Hasty software for image annotation and segmentation.</p>
+        <p><strong>Tools Used:</strong> Hasty, Python</p>
     </section>
 
     <section id="contact">
@@ -55,5 +137,23 @@
             <li>GitHub: <a href="https://github.com/BitutuM" target="_blank">Mercy Mogambi GitHub</a></li>
         </ul>
     </section>
+
+    <script>
+        function showProjectDetails(projectId) {
+            var allSections = document.querySelectorAll('.content-section');
+            allSections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+            document.getElementById(projectId).classList.add('active');
+        }
+
+        function showChallengeDetails(challengeId) {
+            var allSections = document.querySelectorAll('.content-section');
+            allSections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+            document.getElementById(challengeId).classList.add('active');
+        }
+    </script>
 </body>
 </html>

@@ -59,8 +59,8 @@ plugins:
 
 author:
   name   : "Mercy Mogambi"
-  avatar : "/assets/images/gitb.jpg"
-  bio    : "Geomatic Engineering and Geospatial Information Systems.Certified Data Analyst."
+  avatar : "/assets/images/gitb.jpeg"
+  bio    : "Geomatic Engineering and Geospatial Information Systems. Certified Data Analyst."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

@@ -1,6 +1,7 @@
 ---
-title: "Posts by Year"
-permalink: /posts/
-layout: posts
-author_profile: true
+layout: collection
+title: "Portfolio"
+permalink: /Portfolio/
+collection: portfolio
+entries_layout: grid
 ---

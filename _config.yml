@@ -60,14 +60,18 @@ plugins:
 author:
   name   : "Mercy Mogambi"
   avatar : "/assets/images/gitb.jpeg"
-  bio    : "Geomatic Engineering and Geospatial Information Systems. Certified Data Analyst."
+  bio    : "Geomatic Engineering and Geospatial Information Systems| Data Analyst | Annotation."
+  location: "Nakuru, Kenya"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://bitutum.github.io/BitutuMgithub.io/"
-   # - label: "Twitter"
-     # icon: "fab fa-fw fa-twitter-square"
-     # url: "https://twitter.com/"
+     - label: "LinkedIn"
+      icon: "fab fa-linkedin fa-lg"
+      url: "https://www.linkedin.com/in/mercy-mogambi"
+    - label: "Email"
+      icon:"fas fa-envelope" 
+      url: "mailto:bitutumogambi@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BitutuM"
@@ -86,6 +90,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
+      - label: "LinkedIn"
+      icon: "fab fa-linkedin fa-lg"
+      url: "https://www.linkedin.com/in/mercy-mogambi"
+    - label: "Email"
+      icon:"fas fa-envelope" 
+      url: "mailto:bitutumogambi@gmail.com"
 
 defaults:
   # _posts

@@ -38,7 +38,7 @@ Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](assets/images/MercyM
 ## Certifications
 
 - Microsoft Data Analysis & Generative AI (2023)
-- ![Career Essentials](assets/images/CareerEssentials.jpg)
+  ![Career Essentials](assets/images/CareerEssentials.jpg)
 - Spatial Data Science (ESRI)
   ![Spatial Analysis](assets/images/SpatialAnalysis.jpg) 
 - Virtual Assistant – ALX

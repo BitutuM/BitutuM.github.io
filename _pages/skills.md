@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Skills"
-permalink: /skills/
+permalink: /Skills/
 ---
 
 ## 🧠 Technical Skills

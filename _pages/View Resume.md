@@ -4,7 +4,7 @@ title: "Resume"
 permalink: /View Resume/
 ---
 
-Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](/assets/Mercy_Mogambi_Resume.pdf)
+Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](assets/images/Mercy Mogambi Resume.pdf)
 
 ---
 

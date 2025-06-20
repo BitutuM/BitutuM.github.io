@@ -74,11 +74,6 @@ author:
       - label: "Instagram"
        icon: "fab fa-fw fa-instagram"
        url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
-      
-      - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/mercy-mogambi"
-
 footer:
   links:
     #- label: "Twitter"
@@ -90,9 +85,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
-      - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/mercy-mogambi"
 defaults:
   # _posts
   - scope:

@@ -12,7 +12,7 @@ author_profile: true
 A driven Geomatic Engineering graduate passionate about geospatial data, mapping, and AI-enhanced annotation.  
 Experienced in ArcGIS, AutoCAD, Looker Studio, and image segmentation for ML.
 
-🌍 Based in Kenya | <a href="mailto:bitutumogambi@gmail.com" class="btn btn--primary">
+🌍 Based in Kenya | <a href="mailto:bitutumogambi@gmail.com">
   <i class="fas fa-envelope"></i> Email Me
 </a> | <a href="https://www.linkedin.com/in/mercy-mogambi" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn

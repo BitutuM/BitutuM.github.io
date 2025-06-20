@@ -30,6 +30,7 @@ The **Netflix Dataset** provided an excellent opportunity to practice essential 
 **Excerpt:** A hands-on project using Python, Requests, and BeautifulSoup to scrape and organize data from a live website using Google Colab.
 
 📅 **Date:** 2025-06-20
+
 🏷️ **Tags:** Python, Web Scraping, BeautifulSoup, Requests, Google Colab
 
 📄 **Project Overview:**
@@ -45,6 +46,6 @@ The goal was to deepen my skills by building a real-world application that fetch
 - Writing clean and reusable scraping logic in Python
 - Organizing and exporting the scraped data
 
-👉 🔗 View the full notebook on Google Colab
+👉 [🔗 View the full notebook on Google Colab](https://colab.research.google.com/drive/1AfIuGfFGkV18gR_1xa1IlXFsaQk9gfX?usp=sharing)
 
 ---

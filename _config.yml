@@ -71,9 +71,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BitutuM"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
+    #- label: "Instagram"
+     # icon: "fab fa-fw fa-instagram"
+      #url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
+      - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mercy-mogambi"
 
 footer:
   links:
@@ -83,9 +86,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BitutuM"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
+    #- label: "Instagram"
+     # icon: "fab fa-fw fa-instagram"
+      #url: "https://www.instagram.com/bitutu.?igsh=azNtbHh5NjM4cGtu"
+      - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mercy-mogambi"
 defaults:
   # _posts
   - scope:

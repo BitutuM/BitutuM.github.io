@@ -37,8 +37,7 @@ Experienced in ArcGIS, AutoCAD, Looker Studio, and image segmentation for ML.
 ### *Student Intern* - Ostraca Ltd. (2023)
 - Survey computation and map creation using ArcGIS & AutoCAD
 
-*(More experience listed in full resume )* 
-👉[Mercy_Mogambi_Resume.pdf](/assets/images/Mercy-Mogambi-Resume.pdf)
+*(More experience listed in full resume )* [Mercy_Mogambi_Resume.pdf](/assets/images/Mercy-Mogambi-Resume.pdf)
 
 ---
 
@@ -54,5 +53,6 @@ Experienced in ArcGIS, AutoCAD, Looker Studio, and image segmentation for ML.
 - Total Station & Levelling Fundamentals(OAKAR Services)  
 - Surveying using GNSS(OAKAR Services)
 - Data Analyst  Associate Internship - Saint Louis University
+
 ---
-<a href="{{ '/' | relative_url }}" class="btn btn--primary">Back to Home</a>✅ 
+<a href="{{ '/' | relative_url }}" class="btn btn--primary">Back to Home</a>

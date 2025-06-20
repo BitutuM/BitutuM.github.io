@@ -59,8 +59,8 @@ plugins:
 
 author:
   name   : "Mercy Mogambi"
-  avatar : "/assets/images/gitb.jpeg"
-  bio    : "Geospatial Data Analyst | Engineering Surveyor | Data and AI Enthusiast"
+  avatar : "/assets/images/biobit.jpg"
+  bio    : "Geospatial Data Analyst. Engineering Surveyor. Data and AI Enthusiast"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

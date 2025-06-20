@@ -46,6 +46,6 @@ The goal was to deepen my skills by building a real-world application that fetch
 - Writing clean and reusable scraping logic in Python
 - Organizing and exporting the scraped data
 
-👉 [🔗 View the full notebook on Google Colab](https://colab.research.google.com/drive/1AfIuGfFGkV18gR_1xa1IlXFsaQk9gfX?usp=sharing)
+👉 [🔗 View the full notebook on Google Colab](https://colab.research.google.com/drive/1AfIuGfFGkV18gR_1xa1IlX-FsaQk9gfX?usp=sharing#scrollTo=uDaQkC10xQqb)
 
 ---

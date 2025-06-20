@@ -49,13 +49,10 @@ The goal was to deepen my skills by building a real-world application that fetch
 👉 [🔗 View the full notebook on Google Colab](https://colab.research.google.com/drive/1AfIuGfFGkV18gR_1xa1IlX-FsaQk9gfX?usp=sharing#scrollTo=uDaQkC10xQqb)
 
 ---
----
 
 ## 🏨 Business Intelligence with Power BI for Hotel Management
 
 **Excerpt:** A comprehensive data analysis and dashboard project using Power BI to support hotel management decision-making through data modeling, DAX, and interactive visualizations.
-
-![Power BI Hotel Dashboard](/assets/images/powerbi-hotel-dashboard.jpg)
 
 📅 **Date**: 2025-06-20  
 🏷️ **Tags**: Power BI, Business Intelligence, DAX, Data Modeling, Dashboard, Hotel Analytics
@@ -64,7 +61,7 @@ The goal was to deepen my skills by building a real-world application that fetch
 
 This project aimed to provide **actionable insights** for hotel operations using **Power BI**. It involved cleaning, modeling, analyzing, and visualizing data from various sources such as room reservations and booking dates.
 
-### ✅ Key Highlights:
+### Key Highlights:
 - **Data Preparation**: Loaded and transformed datasets like `dim_date`, `dim_rooms`, and `fact_bookings`.
 - **Data Modeling**: Built a **star schema** model with appropriate relationships between dimensions and fact tables.
 - **DAX Expressions**: Created custom columns and measures using **DAX** for more meaningful insights.

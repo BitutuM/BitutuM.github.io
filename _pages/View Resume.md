@@ -11,24 +11,24 @@ Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](/assets/images/Mercy
 ## Education
 
 **BSc. Geomatic Engineering & Geospatial Information Systems**  
-*Jomo Kenyatta University of Agriculture and Technology (2017–2023)*
+*Jomo Kenyatta University of Agriculture and Technology*
 
 ---
 
 ## Work Experience
 
-### Relo Metrics (2025–Present) – *Sponsorship Analyst*
+### *Sponsorship Analyst* - Relo Metrics (2025–Present) 
 - Annotate brand presence in sports content for AI models
 - Evaluate media exposure and calculate sponsorship value
 
-### CloudFactory (2024–2025) – *Data Specialist*
+### *Data Specialist* - CloudFactory (2024–2025)
 - Image segmentation, instance labeling, virtual staging
 
-### Excelerate (2025) – *Associate Data Analyst*
+### *Associate Data Analyst* - Excelerate (2025)
 - Created dashboards in Looker Studio
 - Transformed raw data into clean, visual insights
 
-### Ostraca Ltd. (2023) – *Student Intern*
+### *Student Intern* - Ostraca Ltd. (2023) 
 - Survey computation and map creation using ArcGIS & AutoCAD
 
 *(More experience listed in full resume above)*
@@ -37,11 +37,11 @@ Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](/assets/images/Mercy
 
 ## Certifications
 
-- **Microsoft Career Essentianls & Data Analysis**
+- **Career Essentianls in Generative AI by Microsoft & Linkedin**
   
  ![Career Essentials](/assets/images/Career-Essentials.jpg)
   
-- **Spatial Data Science (ESRI)**
+- **Going places with Spatial Analysis (ESRI)**
   
 ![Spatial Analysis](/assets/images/Spatial-Analysis.jpg)
   
@@ -53,11 +53,11 @@ Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](/assets/images/Mercy
 
 ![Climate action Certification](/assets/images/Climate-Action.jpg)
   
-- **Digital Earth Africa**
+- **Introduction to the Digital Earth Africa Sandbox**
   
 ![Digital Earth Certification](/assets/images/Digital-Earth.jpg)
   
-- **Modern GEO Apps**
+- **Make an Impact with Modern GEO Apps**
 
 ![Modern GEO Certification](/assets/images/Modern-Geo.jpg)
 
@@ -73,7 +73,7 @@ Click to download my Resume 👉 [Mercy_Mogambi_Resume.pdf](/assets/images/Mercy
 
 ![OAKAR Certification](/assets/images/OAKAR2.jpg)
   
-- **Saint Louis University**
+- **Data Analyst Associate Internship - Saint Louis University**
   
 ![Saint Louis Certfication](/assets/images/SAINT-LOUIS.jpg)
   

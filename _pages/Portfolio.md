@@ -88,17 +88,10 @@ This project demonstrates my end-to-end hands-on experience in building impactfu
   Imported structured HR datasets into Tableau from Excel and other sources, ensuring schema alignment and integrity.
 
 - **🔧 Data Transformation**  
-  Cleaned and reshaped the data within Tableau:
-  - Filtered out redundant or incomplete records
-  - Merged related data tables using joins and relationships
-  - Standardized date fields and categorical variables
+  Cleaned and reshaped the data within Tableau.
 
 - **🧮 Calculated Measures**  
-  Created calculated fields and KPIs including:
-  - Employee Attrition Rate
-  - Average Tenure by Department
-  - Headcount Growth % over time
-  - Gender Distribution Ratios
+  Created calculated fields and KPIs 
 
 - **📈 Dashboard Visualization**  
   Designed an interactive dashboard with:

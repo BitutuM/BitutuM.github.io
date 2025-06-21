@@ -17,11 +17,11 @@ classes: wide
 
 The **Netflix Dataset** provided an excellent opportunity to practice essential **data wrangling** skills. This project focused on using Python and **pandas** to clean and prepare a real-world dataset for future exploratory data analysis or machine learning tasks.
 
-**What I Did:**
-- Removed duplicate entries
-- Handled missing values
-- Converted data types
-- Created new variables for analysis
+**Project Outcome:**
+- Removal of duplicate entries
+- Handling of missing values
+- Convertion of data types
+- Creation of new variables for analysis
 
 👉 [View the full notebook on Kaggle](https://www.kaggle.com/code/mercymogambi/netflix-data-wrangling)
 
@@ -39,7 +39,7 @@ This project focused on web scraping to extract structured data from a live webs
 
 The goal was to deepen my skills by building a real-world application that fetched and parsed HTML content, allowing me to gather, clean, and structure meaningful data from the web.
 
-**What I Did:**
+**Project Outcome:**
 
 - Sending HTTP requests and handling HTML responses
 - Navigating and parsing web page elements using BeautifulSoup
@@ -70,3 +70,55 @@ This project aimed to provide **actionable insights** for hotel operations using
 👉 [🔗 View the Power BI Project (Google Drive)](https://drive.google.com/file/d/1YmL4n7GIreyPokU8-3ijKQ-aYMLRu0Uo/view)
 
 ---
+## 📊 HR Dashboard – Tableau Cloud Visualization
+
+**Project Summary:**  
+This project demonstrates my end-to-end hands-on experience in building impactful data visualizations using Tableau. I focused on understanding business needs, transforming raw HR data, and delivering an interactive dashboard published to Tableau Public.
+
+🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/HRDashboard_17501061235090/HRSUMMARY?:language=enUS&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
+### Key Responsibilities & Workflow
+
+- **🔍 Business Understanding**  
+  Collaborated closely with stakeholders to understand key HR metrics and reporting needs, including employee headcount, attrition trends, and departmental performance indicators.
+
+- **📥 Data Loading**  
+  Imported structured HR datasets into Tableau from Excel and other sources, ensuring schema alignment and integrity.
+
+- **🔧 Data Transformation**  
+  Cleaned and reshaped the data within Tableau:
+  - Filtered out redundant or incomplete records
+  - Merged related data tables using joins and relationships
+  - Standardized date fields and categorical variables
+
+- **🧮 Calculated Measures**  
+  Created calculated fields and KPIs including:
+  - Employee Attrition Rate
+  - Average Tenure by Department
+  - Headcount Growth % over time
+  - Gender Distribution Ratios
+
+- **📈 Dashboard Visualization**  
+  Designed an interactive dashboard with:
+  - KPI summary cards
+  - Time-series line charts
+  - Departmental breakdowns using bar charts
+  - Gender and age distribution using pie charts and histograms
+  - Filters and tooltips for drill-down analysis
+
+- **☁️ Cloud Publishing**  
+  Published the final dashboard to **Tableau Public** with proper version control, metadata, and accessibility settings to allow for easy sharing and stakeholder access.
+
+---
+
+### 🛠️ Tools & Skills Used
+- **Tool:** Tableau Desktop, Tableau Public
+- **Skills:** Data Cleaning, Visualization Design, Calculated Fields, Dashboard UX, Cloud Deployment
+
+---
+
+> **Outcome:**  
+> Delivered a clear, interactive HR dashboard that enables stakeholders to explore workforce trends and make data-informed decisions with minimal manual reporting.
+

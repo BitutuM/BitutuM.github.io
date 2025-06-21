@@ -1,9 +1,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Skills"
-    url: /Skills/
   - title: "View Resume"
     url: /View Resume/
+  - title: "Skills"
+    url: /Skills/
   - title: "Portfolio"
     url: /portfolio/

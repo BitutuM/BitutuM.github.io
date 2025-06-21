@@ -59,4 +59,4 @@ Experienced in ArcGIS, AutoCAD, Looker Studio, and image segmentation for ML.
 - Data Analyst  Associate Internship - Saint Louis University
 
 ---
-<a href="{{ '/' | relative_url }}" class="btn btn--primary">Back to Home</a>
+<a href="{{ '/' | relative_url }}" class="btn btn--primary">Back to Top</a>

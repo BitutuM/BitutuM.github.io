@@ -1,5 +1,5 @@
 ---
-title: "Portfolio"
+title: "Projects"
 layout: single
 permalink: /portfolio/
 author_profile: true
